@@ -10,7 +10,6 @@ function calculateMatchScore(recipe: Recipe, query: {
   emotions: string[];
 }): number {
   let score = 0;
-  const maxScore = 100;
 
   // Meal type match (40%)
   if (recipe.meal_type === query.mealType) {
