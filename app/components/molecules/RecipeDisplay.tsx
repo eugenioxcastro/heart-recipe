@@ -73,10 +73,9 @@ export function RecipeDisplay({ recipe }: RecipeDisplayProps) {
 
       <div>
         <h3 className="mb-4 text-lg font-semibold text-gray-900">Instructions</h3>
-        <ol className="list-inside list-decimal space-y-4 text-gray-600">
+        <ol className="space-y-4 text-gray-600">
           {recipe?.steps.map((step, index) => (
             <li key={index} className="pl-2">
-              <span className="font-medium text-gray-900">Step {index + 1}:</span>{' '}
               {step}
             </li>
           ))}

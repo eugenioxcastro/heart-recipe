@@ -12,7 +12,7 @@ export function MainLayout({ children }: MainLayoutProps) {
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <header className="mb-12 text-center">
           <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">
-            Emotion Recipes
+            Heart Recipes
           </h1>
           <p className="mt-4 text-lg text-gray-600">
             Find the perfect recipe that matches your mood and occasion
