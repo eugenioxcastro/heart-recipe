@@ -2,7 +2,7 @@
 
 import { FormEvent } from 'react';
 import { useRecipe } from '@/app/context/RecipeContext';
-import { MealType } from '@/types/supabase';
+import { MealType } from '@/types/recipe';
 import { Button } from '../atoms/Button';
 import { Select } from '../atoms/Select';
 import { EmotionPicker } from './EmotionPicker';

@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useState, ReactNode } from 'react';
 import { RecipeFormData, MealType } from '../types';
-import { Recipe } from '@/types/supabase';
+import { Recipe } from '@/types/recipe';
 
 interface RecipeContextType {
   formData: RecipeFormData;

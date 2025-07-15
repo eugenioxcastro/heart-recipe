@@ -1,5 +1,5 @@
-import OpenAI from 'openai';
-import { Recipe } from '@/types/supabase';
+    import OpenAI from 'openai';
+import { Recipe } from '@/types/recipe';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
